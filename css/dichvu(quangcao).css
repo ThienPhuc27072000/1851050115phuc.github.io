@@ -1,0 +1,109 @@
+										@charset "utf-8";
+										/* CSS Document */
+/* hình nền */
+	body {
+		background-image:url(../image%20film/hinhnenfilm4.png);
+		margin:0;
+		padding:0;
+	} 
+
+	/* HEADER  */
+	div.banner{
+		background-image:linear-gradient(#00F, #906, #000);
+		overflow:hidden;
+	}
+	/* icon góc trái trên */
+	div.head img {
+		width:15%;
+		margin:0;
+		float:left;
+		padding-left:10px;
+	}
+	
+	/* menu dòng 1 chữ trắng */
+	ul.menu1 {
+		list-style-type:none;
+		font-size: 21px;
+		display:flex;
+		margin:0;
+		padding:0;
+	}	
+	ul.menu1 > li {
+		float:left;
+		margin:10px;
+		padding:3px 20px;
+	}
+	ul.menu1 > li > a {
+		text-decoration:none;
+		color:white;
+	}	
+	ul.menu1 > li > a:hover {
+	color:yellow;
+	}
+	
+		
+	/* menu dòng 2 chữ vàng */	
+	ul.menu2 {
+		list-style-type:none;
+		font-size:36px;
+		display:flex;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}	
+	ul.menu2 > li {
+		float:left;
+		margin:25px;
+		padding:0 25px;	
+	}	
+	ul.menu2 > li > a {
+		text-decoration:none;
+		color:#FF0;
+	}
+	ul.menu2 > li > a:hover {
+		color:blue;
+	}
+	
+/* BODY */
+	h1#head {
+		background-color:#FF0;
+		text-align:center;
+		color:#006;	
+		text-transform:uppercase;
+	}
+	div#body > div > img {
+		margin:70px;	
+	}
+	div#body > div > h1 {
+		text-align:center;
+		color:#6FF;	
+		padding-top:20px;
+		text-transform:uppercase;
+	}	
+	div#body > div > p {
+		text-align:center;
+		color:white;	
+	}
+/* FOOTER */ 
+	div.footer { 
+		background-image:linear-gradient(#00F, #000);
+		overflow:hidden;
+		clear:both;
+		margin:0;
+		padding:0;
+	}
+	div#footer1 {
+		color:#FF0;	
+		float:left;
+		width:40%;
+		padding:15px;
+	}
+	div#footer3 {
+		width:15%;
+		float:right;
+	}
+	div#footer3 > img {
+		width:100%;
+	}	
+	
+	

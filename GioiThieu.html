@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Giới thiệu</title>
+<link href="image film/icon OMG new.png" rel="shortcut icon">
+<link href="css/introduce.css" rel="stylesheet" />
+<link href="css/animate.css" rel="stylesheet"/>
+<script src="javascript/wow.min.js"></script>
+<script src="javascript/gioithieu.js"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+<link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
+<script src="javascript/jquery-1.12.4.js"></script>
+<script>
+$(document).ready(function() {
+    $(".goToTop > a").hide();
+	$(".goToTop > a").click(function() {
+		$("html, body").animate({scrollTop:0}, 500);
+	});
+	$(window).scroll(function() {
+		if( $("html, body").scrollTop() > 200)
+		 {
+			$ (".goToTop > a ").fadeIn("slow");
+		 }
+		 else
+		 {
+			 $(".goToTop > a").fadeOut("slow");
+		 }
+	});		
+});
+	
+	new WOW().init();
+</script>
+</head>
+<body>
+
+<!-- HEADER -->		
+<div class="header">
+    <div class="head wow rotateIn"> 
+        <a href="OMGcinema.html"><img src="image film/Untitled-1.png"></a>
+    </div>
+   <div>
+            <ul class="menu1">
+                <li><a href="GioiThieu.html" title="Introduce">Giới thiệu</a></li>
+                <li><a href="DichVu.html" title="Service">Dịch vụ</a></li>
+                <li><a href="TuyenDung.html" title="Recruitment">Tuyển dụng</a></li>
+                <li><a href="FAQS.html" title="FAQC">FAQS</a></li>
+                <li><a href="Lienhe.html" title="Cnotact">Liên hệ</a></li>
+                <li><a href="omg+.html" title="OMG+">OMG+</a></li>
+                <li><a href="DangNhap.html" target="_self">Đăng nhập</a></li>
+                <li><a href="DangKi.html" target="_self">Đăng kí</a></li>          
+            </ul>
+            <ul class="menu2">
+                <li><a href="LichChieu.html" class="info2">LỊCH CHIẾU</a></li>
+                <li><a href="phim.html" class="info2">PHIM</a></li>
+                <li><a href="GiaVe.html" class="info2">GIÁ VÉ</a></li>
+                <li><a href="Uudai.html" class="info2">ƯU ĐÃI</a></li>	         	
+            </ul>            
+        </div>   
+</div>
+<!-- BODY -->
+<div id="bodymain">
+	<h1 id="head" class="wow bounceInDown">giới thiệu</h1>
+    <div id="chuyen">
+    	<button class="tablink wow fadeInLeftBig" onclick="openCity('tableft', this, 'blue')" id="defaultOpen">Hệ thống Cinemas</button>
+        <button class="tablink wow fadeInRightBig" onclick="openCity('tabright', this, 'blue')">Công nghệ phòng chiếu</button>
+    </div>
+    <div id="body">
+    	<div id="tableft" class="tabcontent">
+          <h1 style="font-size:48px">Hệ thống OMG Cinemas</h1>
+          <div>
+          	<p>Không gian phòng chiếu</p>
+            <img src="image film/gioithieu (4).jpg" class="wow bounceInRight">
+            <img src="image film/gioithieu (5).jpg" class="wow bounceInLeft">
+            <img src="image film/gioithieu (6).jpg" class="wow bounceInRight">
+            <p>Quầy cashier</p>
+          	<img src="image film/gioithieu (1).jpg" class="wow bounceInLeft">
+            <img src="image film/gioithieu (2).jpg" class="wow bounceInRight">
+            <img src="image film/gioithieu (3).jpg" class="wow bounceInLeft">
+           	<img src="image film/gioithieu (8).jpg" class="wow bounceInRight">
+            <p>Không gian rạp</p>
+            <img src="image film/gioithieu (7).jpg" class="wow bounceInLeft">        
+            <img src="image film/gioithieu (9).jpg" class="wow bounceInRight">
+            <img src="image film/gioithieu (10).jpg" class="wow bounceInLeft">
+            <img src="image film/gioithieu (11).jpg" class="wow bounceInRight">
+          </div>
+        </div>
+        
+        <div id="tabright" class="tabcontent">
+          <h1 style="font-size:48px">Công nghệ phòng chiếu</h1>
+            <div class="a animated bounceInRight">
+                <div class="hinh"><img src="image film/92-10-t1200.jpg"></div>
+                <div class="chu"><h2>CÔNG NGHỆ 3D</h2>
+                    So với công nghệ chiếu phim 2D Digital (Kỹ thuật số 2 chiều), công nghệ 3D Digital (Kỹ thuật số 3 chiều) cho phép khán giả cảm nhận thêm chiều sâu của hình ảnh, giúp cho không gian điện ảnh trở nên sống động như không gian thực mà chúng ta đang sống.                   
+                    Phim 3D được quay từ tối thiểu hai máy cùng một lúc, từ hai góc nhìn khác nhau tương ứng với hoạt động của hai mắt người. Khi xem phim khán giả sẽ cần đeo kính 3D để lọc hình ảnh cho mỗi mắt, khi qua não bộ sẽ chập lại tạo thành hình ảnh không gian ba chiều.                    
+                    Các phòng chiếu phim 3D Digital này đều sử dụng màn hình tráng bạc để giảm thiểu lượng hao hụt ánh sáng một cách tối đa.
+                </div>
+            </div>
+            <div class="b wow bounceInLeft">
+                <div class="hinh"><img src="image film/sweetbox425x274.jpg"></div>
+                <div class="chu"><h2>SWEETBOX</h2>
+                    Cinestar có thể mang đến cho bạn những giây phút thư giãn cùng những bộ phim hấp dẫn trong không gian nhẹ nhàng, ấm áp cùng người yêu thương và gia đình. Hãy tận hưởng những giây phút ngọt ngào nhất tại Cinestar bằng ghế đôi SWEETBOX.                   
+                    Với nỗ lực không ngừng mang đến cho người yêu phim Việt Nam trải nghiệm điện ảnh tốt nhất, Cinestar mang đến loại ghế đôi SWEETBOX cực kỳ độc đáo và mới lạ. SWEETBOX được đặt ở hàng ghế cuối cùng trong phòng chiếu. Với vách ngăn cao cũng như sự khéo léo trong thiết kế giấu đi tay gác chính giữa giúp cho đôi bạn 
+                    càng thêm gần gũi và ấm áp, tạo không gian hoàn hảo cho các cặp đôi. Hãy đến và trải nghiệm không gian hoàn hảo cho các cặp đôi với SWEETBOX.
+                </div>
+            </div>
+            <div class="a wow bounceInRight">
+                <div class="hinh"><img src="image film/bolbyatmos425-x274.jpg"></div>
+                <div class="chu"><h2>DOLBY ATMOS</h2>
+                    Dolby Atmos – sự phát triển đáng kể nhất trong công nghệ âm thanh kể từ âm thanh vòm, đang tạo ra sự thay đổi độc đáo trong kĩ thuật thiết kế âm thanh phân lớp, hiện đã có mặt tại Việt Nam và sẵn sàng phục vụ khán giả tại CineStar                   
+                    Dolby Atmos sử dụng thiết kế phân lớp tân tiến để tạo nên các rãnh âm thanh. Lớp nền bao gồm các dải âm thanh môi trường tĩnh được phối theo phương pháp âm thanh phân luồng quen thuộc. Các lớp trên trần bao gồm các yếu tố âm thanh động được định hướng và thay đổi một cách chính xác theo hình ảnh hiển thị trên màn hình trong rạp. Bằng cách lắp đặt hệ thống loa ở trên đầu và xung quanh, Dolby Atmos có thể khiến khán giả 
+                    trải nghiệm những âm thanh trung thực và tự nhiên như thật của bộ phim.
+                </div>
+            </div>
+            <div class="b wow bounceInLeft">
+                <div class="hinh"><img id="hinhhu" src="image film/digital-cinema-projector-4k-main-image-1.png"></div>
+                <div class="chu"><h2>MÁY CHIẾU CHRISTIE</h2>
+                    Máy chiếu Christie là giải pháp hình ảnh cao cấp cho nhu cầu giải trí, với độ phân giải 1080p - 4k. ( có số điểm ảnh bề ngang cao gấp 4 lần so với chuẩn full HD)                    
+                    ngoài ra máy còn mang đến cho khán giả những trải nghiệm hình ảnh chân thật hơn nhờ hệ thống thấu kính của mình                    
+                    Đây thực sự là đỉnh cao trong các phòng chiếu
+                </div>
+            </div>	
+        </div> 
+    </div> 
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+	<div id="footer1">
+    	<b>Công ty: TNHH OMG cinema<br/>
+        SĐT: 1234567890</b><br/>
+        <p><i>Địa chỉ: 213 Lý Tự Trọng, Phường Bến Thành, Quận 1, TP.HCM <br/>
+        Email: OMGcinema@gmail.com <br/>
+        Hotline hỗ trợ: +84 28 62649911<br/>
+        Số ĐKKD: 0312667335 - Ngày cấp: 20/07/2019 (Đăng ký thay đổi lần 12)<br/>
+        Nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh<br/>
+		Copyright ©2019 OMG Cinemas. All rights reserved.</i></p>
+	</div>
+	<div id="footer3">
+        <img src="image film/footer-star.png" alt="star">
+	</div>
+    <div class="goToTop">
+            <a href="#"><img src="image film/gotoTop.jpg"></a>
+        </div>
+</div>
+</body>
+</html>

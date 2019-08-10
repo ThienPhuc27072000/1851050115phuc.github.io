@@ -1,0 +1,107 @@
+	<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Đăng nhập</title>
+<link rel="stylesheet" href="css/login.css"/>
+<link href="image film/icon OMG new.png" rel="shortcut icon" />
+<script src="javascript/registration-login.js"></script>
+<link href="css/animate.css" rel="stylesheet"/>
+<script src="javascript/wow.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(".goToTop > a").hide();
+	$(".goToTop > a").click(function() {
+		$("html, body").animate({scrollTop:0}, 500);
+	});
+	$(window).scroll(function() {
+		if( $("html, body").scrollTop() > 200)
+		 {
+			$ (".goToTop > a ").fadeIn("slow");
+		 }
+		 else
+		 {
+			 $(".goToTop > a").fadeOut("slow");
+		 }
+	});		
+});
+	new WOW().init();
+</script>
+</head>
+
+<body>
+<div>
+<!-- HEADER -->
+<div class="header">
+    <div class="head wow bounceInDown"> 
+        <a href="OMGcinema.html"><img src="image film/Untitled-1.png"></a>
+    </div>
+   		<div>
+            <ul class="menu1">
+                <li><a href="GioiThieu.html" title="Introduce">Giới thiệu</a></li>
+                <li><a href="DichVu.html" title="Service">Dịch vụ</a></li>
+                <li><a href="TuyenDung.html" title="Recruitment">Tuyển dụng</a></li>
+                <li><a href="FAQS.html" title="FAQC">FAQS</a></li>
+                <li><a href="Lienhe.html" title="Cnotact">Liên hệ</a></li>
+                <li><a href="omg+.html" title="OMG+">OMG+</a></li>
+                <li><a href="DangNhap.html" target="_self">Đăng nhập</a></li>
+                <li><a href="DangKi.html" target="_self">Đăng kí</a></li>          
+            </ul>
+            <ul class="menu2">
+                <li><a href="LichChieu.html" class="info2">LỊCH CHIẾU</a></li>
+                <li><a href="phim.html" class="info2">PHIM</a></li>
+                <li><a href="GiaVe.html" class="info2">GIÁ VÉ</a></li>
+                <li><a href="Uudai.html" class="info2">ƯU ĐÃI</a></li>	         	
+            </ul>            
+        </div>   
+</div>
+
+<!-- BODY -->
+<div id="body">
+<h1 id="head" class="wow bounceInDown">ĐĂNG NHẬP</h1>
+<form>
+    <div class="membercard"> 
+        <img src="image film/member card 5.png" alt="member card" class="wow rollIn">
+    </div>
+    <div class="information">
+    	<h1>bạn đã là thành viên</h1>
+        <p>Vui lòng nhập email và mật khẩu để đăng nhập</p>
+        <input placeholder="Email đăng nhập" type="email" name="username" required id="email">
+        <input placeholder="Password" type="password" name="password" required id="pass">
+        <!--<div id="login"><a href="#">ĐĂNG NHẬP</a></div>-->
+        <div><input id="login" type="submit" name="login" value="ĐĂNG NHẬP" onClick="dangnhap()"></div>
+       	<div id="forget">
+            <a href="#">Quên mật khẩu?</a>&#160
+            <a href="#">Gửi lại link kích hoạt</a>
+        </div>
+        <div id="notmember">
+        	<p>Bạn chưa là thành viên? <a href="Đăng kí.html"> Đăng kí thành viên </a></p>
+        </div>
+    </div>
+</form>
+</div>
+<!-- FOOTER -->
+	<div class="footer">
+        <div id="footer1">
+            <b>Công ty: TNHH OMG cinema<br/>
+            SĐT: 1234567890</b><br/>
+            <p><i>Địa chỉ: 213 Lý Tự Trọng, Phường Bến Thành, Quận 1, TP.HCM <br/>
+            Email: OMGcinema@gmail.com <br/>
+            Hotline hỗ trợ: +84 28 62649911<br/>
+            Số ĐKKD: 0312667335 - Ngày cấp: 20/07/2019 (Đăng ký thay đổi lần 12)<br/>
+            Nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh<br/>
+            Copyright ©2019 OMG Cinemas. All rights reserved.</i></p>
+        </div>
+        <div id="footer3">
+            <img src="image film/footer-star.png" alt="star">
+        </div>
+	 </div>
+     <div class="goToTop">
+            <a href="#"><img src="image film/gotoTop.jpg"></a>
+        </div>
+</div>
+</body>
+</html>

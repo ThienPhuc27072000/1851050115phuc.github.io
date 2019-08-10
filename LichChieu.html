@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lịch chiếu</title>
+<link href="image film/icon OMG new.png" rel="shortcut icon">
+<link href="css/showtime.css" rel="stylesheet" />
+<link href="../fontawesome-free-5.9.0-web/css/all.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="css/animate.css" rel="stylesheet"/>
+<script src="javascript/wow.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(".goToTop > a").hide();
+	$(".goToTop > a").click(function() {
+		$("html, body").animate({scrollTop:0}, 500);
+	});
+	$(window).scroll(function() {
+		if( $("html, body").scrollTop() > 200)
+		 {
+			$ (".goToTop > a ").fadeIn("slow");
+		 }
+		 else
+		 {
+			 $(".goToTop > a").fadeOut("slow");
+		 }
+	});		
+});
+
+	$(document).ready(function(){
+		$(".submenu").click(function(){
+			$(".subcontent").slideToggle(500);
+		});
+	});
+	
+	 new WOW().init();
+</script>
+</head>
+<body>
+<!-- HEADER -->	
+<div class="header">
+    <div class="head wow rotateIn"> 
+        <a href="OMGcinema.html"><img src="image film/Untitled-1.png"></a>
+    </div>
+    <div>
+            <ul class="menu1">
+                <li><a href="GioiThieu.html" title="Introduce">Giới thiệu</a></li>
+                <li><a href="DichVu.html" title="Service">Dịch vụ</a></li>
+                <li><a href="TuyenDung.html" title="Recruitment">Tuyển dụng</a></li>
+                <li><a href="FAQS.html" title="FAQC">FAQS</a></li>
+                <li><a href="Lienhe.html" title="Cnotact">Liên hệ</a></li>
+                <li><a href="omg+.html" title="OMG+">OMG+</a></li>
+                <li><a href="DangNhap.html" target="_self">Đăng nhập</a></li>
+                <li><a href="DangKi.html" target="_self">Đăng kí</a></li>          
+            </ul>
+            <ul class="menu2">
+                <li><a href="LichChieu.html" class="info2">LỊCH CHIẾU</a></li>
+                <li><a href="phim.html" class="info2">PHIM</a></li>
+                <li><a href="GiaVe.html" class="info2">GIÁ VÉ</a></li>
+                <li><a href="Uudai.html" class="info2">ƯU ĐÃI</a></li>	         	
+            </ul>            
+        </div>   
+</div>
+<!-- BODY -->
+<div id="bodymain">
+	<h1 id="head" class="wow bounceInDown">lịch chiếu</h1>
+   	<div>
+    	<div>
+       		<ul class="menu wow bounceInRight">
+                <li class="submenu"><a href="#">Thứ 2 - 12/8</a>
+                	<ul class="subcontent">
+                    	<li><a href="#">Thứ 3 - 13/8</a></li>
+                        <li><a href="#">Thứ 4 - 14/8</a></li>
+                        <li><a href="#">Thứ 5 - 15/8</a></li>
+                        <li><a href="#">Thứ 6 - 16/8</a></li>
+                        <li><a href="#">Thứ 7 - 17/8</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="body">
+    	<div class="a">
+        	<div class="hinh">
+        		<img src="image film/hobbs.jpg" class="wow bounceOutUp">
+            </div>
+            <div class="giochieu">
+            	<h1>Fast & furious: hobbs & shaw</h1>
+            	<p>
+                	<i class="far fa-clock"> Thời lượng: 134 phút</i>	
+               		<i class="fas fa-ticket-alt"> Thể loại: Hành động</i>
+                    <i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i>
+                </p>
+                <p>Đạo diễn: David Leitch</p>
+                <p>Diễn viên: Dwayne Johnson, Jason Statham, Idris Elba</p>
+                <p>Ngôn ngữ: Phụ đề tiếng việt</p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">2D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">3D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>    
+            </div>
+        </div>
+        
+        <div class="b">
+        	<div class="hinh">
+        		<img src="image film/dieubomechuake_1563419427351.jpg" class="wow zoomInRight">
+            </div>
+            <div class="giochieu">
+            	<h1>Điều ba mẹ không kể</h1>
+            	<p>
+                	<i class="far fa-clock"> Thời lượng: 112 phút</i>	
+               		<i class="fas fa-ticket-alt"> Thể loại: Tâm lí, gia đình</i>
+                    <i class="far fa-calendar-alt"> Khởi chiếu: 26/7/2019</i>
+                </p>
+                <p>Đạo diễn: Lee Chang Geun</p>
+                <p>Diễn viên: Lee Soon Jae, Jung Young Sook</p>
+                <p>Phụ đề tiếng việt</p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">2D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">3D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        
+        <div class="a">
+            <div class="hinh">
+                <img src="image film/mv5bmtg5nty3otu2n15bml5banbnxkftztgwotgyota4njm-v1-sy1000-sx800-al-_1543993511772.jpg" class="wow zoomInLeft">
+            </div>
+            <div class="giochieu">
+            	<h1>The lion king</h1>
+            	<p>
+                	<i class="far fa-clock"> Thời lượng: 120 phút</i>	
+               		<i class="fas fa-ticket-alt"> Thể loại: Phiêu lưu, Hoạt hình</i>
+                    <i class="far fa-calendar-alt"> Khởi chiếu: 19/7/2019</i>
+                </p>
+                <p>Đạo diễn: Jon Favreau</p>
+                <p>Diễn viên: ames Earl Jones, Chiwetel Ejiofor, Donald Glover</p>
+                <p>Phụ đề tiếng việt</p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">2D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">3D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        
+        <div class="b">
+            <div class="hinh">
+                <img src="image film/photo-1-15641342887411617178645.jpg" class="wow zoomInDown">
+            </div>
+            <div class="giochieu">
+            	<h1>đầu gấu bắc cực</h1>
+            	<p>
+                	<i class="far fa-clock"> Thời lượng: 90 phút</i>	
+               		<i class="fas fa-ticket-alt"> Thể loại: Hoạt hình</i>
+                    <i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i>
+                </p>
+                <p>Đạo diễn: Richard Finn, Tim Maltby</p>
+                <p>Diễn viên: Lisa Durupt, Jonathan Holmes, Vincent Tong, Lee Tockar, Michael Dobson</p>
+                <p>Phụ đề tiếng việt, Lồng tiếng Tiếng Việt</p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">2D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">3D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        
+        <div class="a">
+            <div class="hinh">
+                <img src="image film/2019713_121314.jpg" class="wow zoomInUp">
+            </div>
+            <div class="giochieu">
+            	<h1>bring the soul</h1>
+            	<p>
+                	<i class="far fa-clock"> Thời lượng: 105 phút</i>	
+               		<i class="fas fa-ticket-alt"> Thể loại: Âm nhạc - Nhạc kịch</i>
+                    <i class="far fa-calendar-alt"> Khởi chiếu: 9/8/2019 </i>
+                </p>
+                <p>Đạo diễn: Park Jun Soo</p>
+                <p>Diễn viên: BTS (RM, Jin, Suga, J-Hope, Jimin, Jungkook, V)</p>
+                <p>Phụ đề tiếng việt</p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">2D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="gio">
+                        <span><li class="chu">3D Phụ đề: </li></span>
+                        <li>8:45</li>
+                        <li>10:15</li>
+                        <li>12:00</li>
+                        <li>14:15</li>
+                        <li>16:55</li>
+                        <li>19:15</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+	<div id="footer1">
+    	<b>Công ty: TNHH OMG cinema<br/>
+        SĐT: 1234567890</b><br/>
+        <p><i>Địa chỉ: 213 Lý Tự Trọng, Phường Bến Thành, Quận 1, TP.HCM <br/>
+        Email: OMGcinema@gmail.com <br/>
+        Hotline hỗ trợ: +84 28 62649911<br/>
+        Số ĐKKD: 0312667335 - Ngày cấp: 20/07/2019 (Đăng ký thay đổi lần 12)<br/>
+        Nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh<br/>
+		Copyright ©2019 OMG Cinemas. All rights reserved.</i></p>
+	</div>
+	<div id="footer3">
+        <img src="image film/footer-star.png" alt="star">
+	</div>
+    <div class="goToTop">
+            <a href="#"><img src="image film/gotoTop.jpg"></a>
+        </div>
+</div>
+
+</body>
+</html>

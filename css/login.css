@@ -1,0 +1,202 @@
+										@charset "utf-8";
+										/* CSS Document */
+
+/* hình nền */
+	body {
+		background-image:url(../image%20film/hinhnenfilm4.png);
+		background-attachment:fixed;
+		margin:0;
+		padding:0;
+	} 
+
+	/* HEADER  */
+	div.header {
+		background-image:linear-gradient(#00F, #906, #000);
+		overflow:hidden;
+		position:fixed;
+		left:0;
+		right:0;
+		top:0;
+		z-index:1;	
+	}
+	/* logo góc trái trên */
+	div.head > a > img {
+		width:15%;
+		margin:0;
+		float:left;
+		padding-left:10px;
+	}
+	
+	/* menu dòng 1 chữ trắng */
+	ul.menu1 {
+		list-style-type:none;
+		font-size: 21px;
+		display:flex;
+		margin:0;
+		padding:0;
+	}	
+	ul.menu1 > li {
+		float:left;
+		margin:10px;
+		padding:3px 20px;
+	}
+	ul.menu1 > li > a {
+		text-decoration:none;
+		color:white;
+	}	
+	ul.menu1 > li > a:hover {
+	color:yellow;
+	}
+		
+	/* menu dòng 2 chữ vàng */	
+	ul.menu2 {
+		list-style-type:none;
+		font-size:36px;
+		display:flex;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}	
+	ul.menu2 > li {
+		float:left;
+		margin:25px;
+		margin-left:50px;
+		padding:0 25px;	
+	}	
+	ul.menu2 > li > a {
+		text-decoration:none;
+		color:#FF0;
+	}
+	ul.menu2 > li > a:hover {
+		color:blue;
+	}
+	h1#head {
+		padding:2px;
+		color:#006;
+		background-color:#FF0;
+		text-align:center;
+		text-transform:uppercase;
+	}
+
+/* BODY */
+	div#body {
+		position:relative;
+		top:135px;	
+	}
+
+	div.membercard{
+		float:left;
+		width:45%;
+	}
+	div.membercard > img {
+		width:100%;
+		margin:50px;
+		border-radius:20px;	
+	}
+	
+	div.information {
+		float:left;
+		width:45%;
+	}
+	
+	div.information > h1 {
+		color:#09F;
+		text-transform:uppercase;
+		text-align:center;
+	}
+	
+	div.information > p
+	{
+		color:#6F0;
+		font-style:italic;
+		text-align:center;
+	}
+	
+	input {
+		margin:10px;
+		height:20px;
+		width:450px;
+		margin-left:110px;
+		padding:10px;
+	}
+	
+	#login {
+		width:150px;
+		height:40px;
+		font-size:20px;
+		font-weight:bold;
+		background-color:#FF0;
+		margin:12px 230px;
+		text-align:center;
+	}
+	
+	#login > a {
+		text-decoration:none;
+	}
+	
+	#login:hover {
+		border:3px solid blue;
+	}
+	
+	div#forget {
+		text-align:center;
+	}
+	
+	div#forget > a {
+		text-decoration:none;
+		color:#0F0;
+	}
+	div#forget > a:hover {
+		text-decoration:underline;
+	}	
+	
+	#notmember {
+		color:#6FF;
+		margin-left:100px;
+	}
+	#notmember a {
+		color:#6FF;
+	}
+	
+/* FOOTER */ 
+	div.footer { 
+		background-image:linear-gradient(#00F, #000);
+		overflow:hidden;
+		clear:both;
+		margin:0;
+		padding:0;
+		position:relative;
+		top:150px;
+	}
+	div#footer1 {
+		color:#FF0;	
+		float:left;
+		width:40%;
+		padding:15px;
+	}	
+	div#footer3 {
+		width:15%;
+		float:right;
+	}
+	div#footer3 > img {
+		width:100%;
+	}
+	/* gotoTop */
+	div.goToTop {
+		position:fixed;
+		right:10px;
+		bottom:40px;
+		z-index:3;
+	}
+	
+	div.goToTop a > img {
+		display:block;
+		background-color:#FFF;
+		width:50px;
+		border-radius:50%;
+		opacity:0.5;
+	}
+	div.goToTop a > img:hover {
+		opacity:1;	
+	}
+		

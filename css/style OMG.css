@@ -1,0 +1,382 @@
+										@charset "utf-8";
+										/* CSS Document */
+	
+/* hình nền */
+	body {
+		background-image:url(../image%20film/hinhnenfilm4.png);
+		background-attachment:fixed;
+		margin:0;
+		padding:0;
+	} 
+
+	/* HEADER  */
+	div.header {
+		background-image:linear-gradient(#00F, #906, #000);
+		overflow:hidden;
+		width:100%;
+		z-index:3;	
+	}
+	/* logo góc trái trên */
+	div.head > a > img {
+		width:15%;
+		margin:0;
+		float:left;
+		padding-left:10px;
+	}
+	
+	/* menu dòng 1 chữ trắng */
+	ul.menu1 {
+		list-style-type:none;
+		font-size: 21px;
+		display:flex;
+		margin:0;
+		padding:0;
+	}	
+	ul.menu1 > li {
+		float:left;
+		margin:10px;
+		padding:3px 20px;
+	}
+	ul.menu1 > li > a {
+		text-decoration:none;
+		color:white;
+	}	
+	ul.menu1 > li > a:hover {
+	color:yellow;
+	}
+		
+	/* menu dòng 2 chữ vàng */	
+	ul.menu2 {
+		list-style-type:none;
+		font-size:36px;
+		display:flex;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}	
+	ul.menu2 > li {
+		float:left;
+		margin:25px;
+		margin-left:50px;
+		padding:0 25px;	
+	}	
+	ul.menu2 > li > a {
+		text-decoration:none;
+		color:#FF0;
+	}
+	ul.menu2 > li > a:hover {
+		color:blue;
+	}
+	
+	/* header nhỏ*/
+	div.header1 {
+		display:none;
+		position:fixed;
+		z-index:10000;
+		background-image:linear-gradient(#00F, #906, #000);
+		overflow:hidden;
+		width:100%;
+	}
+	div.head1 > a > img {
+		width:8%;
+		margin:0;
+		float:left;
+		padding-left:10px;
+	}
+	
+	ul.menuA {
+		list-style-type:none;
+		font-size: 14px;
+		display:flex;
+		margin:0;
+		padding:0;
+	}	
+	ul.menuA > li {
+		float:left;
+		margin:10px;
+		padding:0px 25px;
+		padding-left:55px;
+	}
+	ul.menuA > li > a {
+		text-decoration:none;
+		color:white;
+	}	
+	ul.menuA > li > a:hover {
+	color:yellow;
+	}
+		
+	/* menu dòng 2 chữ vàng */	
+	ul.menuB {
+		list-style-type:none;
+		font-size:24px;
+		display:flex;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}	
+	ul.menuB > li {
+		float:left;
+		margin-left:50px;
+		padding:0 70px;	
+	}	
+	ul.menuB > li > a {
+		text-decoration:none;
+		color:#FF0;
+	}
+	ul.menuB > li > a:hover {
+		color:blue;
+	}
+	#a { border-radius:50%; width:100%; }
+	#b { border-radius:50%; width:100%; }
+	#c { border-radius:50%; width:100%; }
+	#d { border-radius:50%; width:100%; }
+	#e { border-radius:50%; width:100%; }
+	
+	div#iconheader {
+		margin:10px;
+		overflow:hidden;
+	 }
+	 
+/* BODY */
+	body.preloading{
+		overflow:hidden;
+		}
+	.load{
+		width:100%;
+		height:100%;
+		position:fixed;
+		z-index:100000;
+		overflow:hidden;
+		} 
+	.load > img{
+		width:100%;
+		height:100%;
+		position:absolute;
+		}
+	div#body {
+		position:relative;
+	}
+	/* menu 3 icon */
+	div#iconleft {
+		float:left;	
+		width:50%;
+	}
+	div#iconleft > img {
+		width:10%;
+		float:left;
+	}
+	div#iconleft > p {
+		width:35%;
+		color:#42a5f6;
+		float:left;
+		font-size:48px;
+		margin:0;
+	}
+	ul.menu3 {
+		list-style-type:none;	
+	}
+	ul.menu3 > li {
+		float:right;
+		width:10%;
+		margin-right:30px;
+	}
+	div#iconright{
+		width:50%;
+		float:right;	
+	}
+	ul.menu3 > li > a > img:hover {
+		transform:rotate(360deg);
+		transition:transform 1s;	
+	}
+	
+	/* banner */
+	div.banners { 
+		width:100%;
+		position:relative;
+	}
+	#banner{
+		width:100%;
+	}
+	#leftbanners {
+		position:absolute;
+		left:10px;
+		opacity:0.3;
+		top:250px;
+	}
+	#rightbanners {
+		position:absolute;
+		right:10px;
+		opacity:0.3;
+		top:250px;
+	}
+	
+	#rightbanners > button {
+		background-color:white;
+	}
+	#leftbanners > button {
+		background-color:white;
+	}
+	#leftbanners > button:hover {
+		background-color:yellow;	
+	}
+	#rightbanners > button:hover {
+		background-color:yellow;	
+	}
+		
+	/* seletton film */
+	.selectionFilm > h1 {
+		font-size:35px;
+		border-top:1px solid white;
+		border-bottom:1px solid white;
+		color:#0F0;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	 /* con cú */
+	.owl-carousel {
+		background:linear-gradient(#000, #FFF);
+	}
+	div.item > img  {
+		border-top:20px solid #000;
+		width:100%;	
+		height:376px;
+	}
+	div.item2 > img  {
+		border-top:5px solid #000;
+		width:100%;	
+		height:250px;
+	}
+	.owl-carousel .item {
+		width:100%;	
+	}
+	
+	/* hinh uu dai */ 
+	div#hinhuudai {
+		background-color:#333;
+	}
+	div#hinhuudai > img {
+		margin-left:100px;
+		margin-top:15px;
+		margin-bottom:15px;
+	}
+	div.main-content {
+		opacity: 0.5;
+		pointer-events:none;	
+	}
+	
+	/* hiệu ứng rê chuột */
+	div.item div.hien {
+		display:none;
+		position:absolute;
+		top:25px;
+		color:#FFF;	
+	}
+	div.hien > h2 {
+		text-transform:uppercase;	
+	}
+	div.item img {
+		position:relative;	
+	}
+	div.item > h2 {
+		text-align:center;
+		color:#30F;	
+	}
+	div.item:hover div.hien {
+		display:block;
+		text-align:center;		
+	}
+	div.item:hover img {
+		opacity:0.5;	
+	}
+	
+	div.item2 div {
+		display:none;
+		position:absolute;
+		top:50px;
+		left:50px;	
+	}
+	div.item2 img {
+		position:relative;	
+	}
+	div.item2:hover div {
+		display:block;			
+	}
+	div.item2:hover img {
+		opacity:0.5;	
+	}
+	div#dolbyatmos {
+			
+	}
+	div#dolbyatmos > img {
+		flaot:left;	
+	}
+	
+	
+/* FOOTER */ 
+	div.footer { 
+		background-image:linear-gradient(#00F, #000);
+		overflow:hidden;
+		clear:both;
+		margin:0;
+		padding:0;
+		position:relative;
+	}
+	div#footer1 {
+		color:#FF0;	
+		float:left;
+		width:40%;
+		padding:15px;
+	}
+	div#footer3 {
+		width:15%;
+		float:right;
+	}
+	div#footer3 > img {
+		width:100%;
+	}
+	/* gotoTop */
+	div.goToTop {
+		position:fixed;
+		right:10px;
+		bottom:40px;
+		z-index:3;
+	}
+	
+	div.goToTop a > img {
+		display:block;
+		background-color:#FFF;
+		width:50px;
+		border-radius:50%;
+		opacity:0.5;
+	}
+	div.goToTop a > img:hover {
+		opacity:1;	
+	}
+	
+	/* quảng cáo */
+	div.quangcao{
+		width:80%;
+		margin:0 auto;
+		position: fixed;
+		top: 50px;
+		left: 135px;
+	}
+	div.quangcao > img{
+		width:100%;	
+	}
+	div > span {
+		color: #F00;
+		position: absolute;
+		z-index: 2;
+		right: 15px;
+		top: 10px;
+		display: inline-block;
+		background-color:#FFF;
+		border-radius: 20px;
+		width: 30px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+		cursor: pointer;
+	}
+	

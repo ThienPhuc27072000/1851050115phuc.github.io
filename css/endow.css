@@ -1,0 +1,146 @@
+										@charset "utf-8";
+										/* CSS Document */
+/* hình nền */
+	body {
+		background-image:url(../image%20film/hinhnenfilm4.png);
+		background-attachment:fixed;
+		margin:0;
+		padding:0;
+	} 
+
+	/* HEADER  */
+	div.banner{
+		background-image:linear-gradient(#00F, #906, #000);
+		overflow:hidden;
+	}
+	/* icon góc trái trên */
+	div.head img {
+		width:15%;
+		margin:0;
+		float:left;
+		padding-left:10px;
+	}
+	
+	/* menu dòng 1 chữ trắng */
+	ul.menu1 {
+		list-style-type:none;
+		font-size: 21px;
+		display:flex;
+		margin:0;
+		padding:0;
+	}	
+	ul.menu1 > li {
+		float:left;
+		margin:10px;
+		padding:3px 20px;
+	}
+	ul.menu1 > li > a {
+		text-decoration:none;
+		color:white;
+	}	
+	ul.menu1 > li > a:hover {
+	color:yellow;
+	}
+	
+		
+	/* menu dòng 2 chữ vàng */	
+	ul.menu2 {
+		list-style-type:none;
+		font-size:36px;
+		display:flex;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}	
+	ul.menu2 > li {
+		float:left;
+		margin:25px;
+		padding:0 25px;	
+	}	
+	ul.menu2 > li > a {
+		text-decoration:none;
+		color:#FF0;
+	}
+	ul.menu2 > li > a:hover {
+		color:blue;
+	}
+	
+/* BODY */
+	h1#head {
+		padding:2px;
+		color:#006;
+		background-color:#FF0;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	.bocuc {
+		overflow:hidden;
+	}
+	div.hinh {
+		width:40%;
+		float:left; 
+		padding:30px;
+		margin-left:40px;
+	}
+	div.hinh > img {
+		width:100%;
+		border-radius:0 40px 0 40px;	
+	}
+	div.chu {
+		padding:20px;
+		color:white;
+		padding-left:30px;
+		margin-left:50px;
+		float:left;
+		width:40%;
+		background-color:#639;
+		opacity:0.9;
+		border-radius:40px 0 40px 0;
+	}
+	div.chu > h1 {
+		color:gold;
+		text-align:center;		
+	}
+	
+/* FOOTER */ 
+	div.footer { 
+		background-image:linear-gradient(#00F, #000);
+		overflow:hidden;
+		clear:both;
+		margin:0;
+		padding:0;
+	}
+	div#footer1 {
+		padding:15px;
+		color:#FF0;	
+		float:left;
+		width:40%;
+	}
+	div#footer3 {
+		width:15%;
+		float:right;
+	}
+	div#footer3 > img {
+		width:100%;
+	}	
+	/* gotoTop */
+	div.goToTop {
+		position:fixed;
+		right:10px;
+		bottom:40px;
+		z-index:3;
+	}
+	
+	div.goToTop a > img {
+		display:block;
+		background-color:#FFF;
+		width:50px;
+		border-radius:50%;
+		opacity:0.5;
+	}
+	div.goToTop a > img:hover {
+		opacity:1;	
+	}
+	
+	
+	

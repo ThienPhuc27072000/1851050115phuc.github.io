@@ -1,0 +1,153 @@
+										@charset "utf-8";
+										/* CSS Document */
+/* hình nền */
+	body {
+		background-image:url(../image%20film/hinhnenfilm4.png);
+		background-attachment:fixed;
+		margin:0;
+		padding:0;
+		top:135px;
+		position:relative;
+	}
+	/* HEADER  */
+	div.header {
+		background-image:linear-gradient(#00F, #906, #000);
+		overflow:hidden;
+		position:fixed;
+		left:0;
+		right:0;
+		top:0;
+		z-index:1;	
+	}
+	/* icon góc trái trên */
+	div.head img {
+		width:15%;
+		margin:0;
+		float:left;
+		padding-left:10px;
+	}
+	
+	/* menu dòng 1 chữ trắng */
+	ul.menu1 {
+		list-style-type:none;
+		font-size: 21px;
+		display:flex;
+		margin:0;
+		padding:0;
+	}	
+	ul.menu1 > li {
+		float:left;
+		margin:10px;
+		padding:3px 20px;
+	}
+	ul.menu1 > li > a {
+		text-decoration:none;
+		color:white;
+	}	
+	ul.menu1 > li > a:hover {
+	color:yellow;
+	}
+	
+		
+	/* menu dòng 2 chữ vàng */	
+	ul.menu2 {
+		list-style-type:none;
+		font-size:36px;
+		display:flex;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}	
+	ul.menu2 > li {
+		float:left;
+		margin:25px;
+		margin-left:50px;
+		padding:0 25px;	
+	}	
+	ul.menu2 > li > a {
+		text-decoration:none;
+		color:#FF0;
+	}
+	ul.menu2 > li > a:hover {
+		color:blue;
+	}
+	
+/* BODY */
+	h1#head {
+		padding:2px;
+		color:#006;
+		background-color:#FF0;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	div#left {
+		float:left;
+		margin:30px;
+		width:40%;
+	}
+	div#left > h1  {
+		color:red;
+		font-size:40px;
+		text-align:center;
+		overflow:hidden;	
+	}
+	div#right {
+		color:white;
+		width:40%;
+		float:left;
+		background-color:#333;
+		opacity:0.9;
+		padding:30px;
+		margin-left:100px;
+		margin-bottom:50px;
+		border-radius:30px;
+	}	
+	div#right h3 {
+		color:#0FF;	
+	}
+	p > a {
+		text-decoration:none;
+		color:red;		
+	}
+	
+/* FOOTER */ 
+	div.footer { 
+		background-image:linear-gradient(#00F, #000);
+		overflow:hidden;
+		clear:both;
+		margin:0;
+		padding:0;
+	}
+	div#footer1 {
+		padding:15px;
+		color:#FF0;	
+		float:left;
+		width:40%;
+	}
+	div#footer3 {
+		width:15%;
+		float:right;
+	}
+	div#footer3 > img {
+		width:100%;
+	}	
+	/* gotoTop */
+	div.goToTop {
+		position:fixed;
+		right:10px;
+		bottom:40px;
+		z-index:3;
+	}
+	
+	div.goToTop a > img {
+		display:block;
+		background-color:#FFF;
+		width:50px;
+		border-radius:50%;
+		opacity:0.5;
+	}
+	div.goToTop a > img:hover {
+		opacity:1;	
+	}
+	
+	

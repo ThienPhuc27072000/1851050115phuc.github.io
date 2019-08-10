@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>OMG Cinema</title>
+<link rel="stylesheet" href="css/style OMG.css" />
+<link href="../fontawesome-free-5.9.0-web/css/all.min.css" rel="stylesheet">
+<link href="image film/icon OMG new.png" rel="shortcut icon">
+<script src="javascript/jquery-1.12.4.js"></script>
+<script src="javascript/Java.js"></script>
+<link href="css/animate.css" rel="stylesheet">
+<script src="javascript/wow.min.js"></script>
+<link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="https://uhchat.net/code.php?f=51b1bd"></script>
+<script src="javascript/jquery.min.js"></script>
+<script>
+	var a = document.getElementById("uhchatboz")
+	a.onclick = function() {
+		if(a.style.bottom == "-320px")
+			a.style.bottom = "0px";
+		else
+			a.style.bottom = "-320px";	
+	}
+	a.style.zIndex="1000"
+	$(document).ready(function(e) {
+        $(".load").delay(1000).fadeOut(function(){
+			$("body").removeClass("preloading");
+			});
+    });
+	
+	new WOW().init();
+</script>
+</head>
+
+<body class="preloading">
+<!-- HEADER -->
+<div class="load">
+	<img src="image film/logofirst.gif">
+</div>
+<div class="main-content">
+	<div class="header1">
+        <div class="head1"> 
+            <a href="OMGcinema.html"><img src="image film/Untitled-1.png" class="wow rotateIn"></a>
+        </div>
+        <div>
+            <ul class="menuA">
+                <li><a href="GioiThieu.html" title="Introduce">Giới thiệu</a></li>
+                <li><a href="DichVu.html" title="Service">Dịch vụ</a></li>
+                <li><a href="TuyenDung.html" title="Recruitment">Tuyển dụng</a></li>
+                <li><a href="FAQS.html" title="FAQC">FAQS</a></li>
+                <li><a href="Lienhe.html" title="Cnotact">Liên hệ</a></li>
+                <li><a href="omg+.html" title="OMG+">OMG+</a></li>
+                <li><a href="DangNhap.html" target="_self">Đăng nhập</a></li>
+                <li><a href="DangKi.html" target="_self">Đăng kí</a></li>          
+            </ul>
+            <ul class="menuB">
+                <li><a href="LichChieu.html" class="info2">LỊCH CHIẾU</a></li>
+                <li><a href="phim.html" class="info2">PHIM</a></li>
+                <li><a href="GiaVe.html" class="info2">GIÁ VÉ</a></li>
+                <li><a href="Uudai.html" class="info2">ƯU ĐÃI</a></li>	         	
+            </ul>            
+        </div>   
+	</div>
+    <div class="header">
+        <div class="head wow rotateIn"> 
+            <a href="OMGcinema.html"><img src="image film/Untitled-1.png"></a>
+        </div>
+        <div>
+            <ul class="menu1">
+                <li><a href="GioiThieu.html" title="Introduce">Giới thiệu</a></li>
+                <li><a href="DichVu.html" title="Service">Dịch vụ</a></li>
+                <li><a href="TuyenDung.html" title="Recruitment">Tuyển dụng</a></li>
+                <li><a href="FAQS.html" title="FAQC">FAQS</a></li>
+                <li><a href="Lienhe.html" title="Cnotact">Liên hệ</a></li>
+                <li><a href="omg+.html" title="OMG+">OMG+</a></li>
+                <li><a href="DangNhap.html" target="_self">Đăng nhập</a></li>
+                <li><a href="DangKi.html" target="_self">Đăng kí</a></li>          
+            </ul>
+            <ul class="menu2">
+                <li><a href="LichChieu.html" class="info2">LỊCH CHIẾU</a></li>
+                <li><a href="phim.html" class="info2">PHIM</a></li>
+                <li><a href="GiaVe.html" class="info2">GIÁ VÉ</a></li>
+                <li><a href="Uudai.html" class="info2">ƯU ĐÃI</a></li>	         	
+            </ul>
+        </div>   
+    </div>
+    
+        <!-- BODY --> 
+    <div id="body">
+        <div id="iconheader">
+            <div id="iconleft">
+                <img id="a" src="image film/168.png" >
+                <p>0936498053</p>
+            </div>
+            <div id="iconright">
+               <ul class="menu3">
+                   <li><a href="https://www.facebook.com/"><img id="b" src="image film/Facebook_Logo_(2019).png"></a></li>
+                   <li><a href="https://www.instagram.com/"><img id="c" src="image film/insta.png"></a></li>
+                   <li><a href="#"><img id="d" src="image film/play-1173551_960_720.png"></a></li>
+                   <li><a href="#"><img id="e" src="image film/gmail.png"></a></li>
+               </ul>
+            </div>
+        </div>
+        <div class="banners wow bounceIn">
+            <img id="banner" src="banner/banner1.jpg" class="wow bounceOutDown"/>
+            <div id="leftbanners">
+                <button onClick="left()"><img src="image film/67771401_2109484852488640_8236447363221159936_n.png"></button>
+            </div>
+            <div id="rightbanners">
+                <button onClick="right()"><img src="image film/67295797_882053032154545_8450019430968066048_n.png"></button>
+            </div>
+        </div>
+        
+        <div class="selectionFilm">
+        	<h1> SELECTION FILM </h1>
+        </div>
+        <div class="owl-carousel owl-theme wow fadeInLeftBig">
+            <div class="item">
+            	<img src="image film/frozen.jpg">
+                <div class="hien">
+                	<h2>Frozen</h2>
+                	<p><i class="far fa-clock"> Thời lượng: 134 phút</i></p>	
+               		<p><i class="fas fa-ticket-alt"> Thể loại: Hành động</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i></p>
+                    <p>Đạo diễn: David Leitch</p>
+                    <p>Diễn viên: Dwayne Johnson, Jason Statham, Idris Elba</p>
+                    <p>Ngôn ngữ: Phụ đề tiếng việt</p>
+                </div>
+            </div>
+            <div class="item">            
+            	<img src="image film/2019713_121314.jpg">
+                <div class="hien">
+                	<h2>Bring the Soul</h2>
+                    <p><i class="far fa-clock"> Thời lượng: 105 phút</i></p>	
+                    <p><i class="fas fa-ticket-alt"> Thể loại: Âm nhạc - Nhạc kịch</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 9/8/2019 </i></p>
+                    <p>Đạo diễn: Park Jun Soo</p>
+                    <p>Diễn viên: BTS (RM, Jin, Suga, J-Hope, Jimin, Jungkook, V)</p>
+                    <p>Phụ đề tiếng việt</p>
+                </div>
+            </div>
+            <div class="item">
+            	<img src="image film/conan-1.jpg">
+            	<div class="hien">
+                	<h2>CONAN</h2>
+                	<p><i class="far fa-clock"> Thời lượng: 134 phút</i></p>	
+               		<p><i class="fas fa-ticket-alt"> Thể loại: Hành động</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i></p>
+                    <p>Đạo diễn: David Leitch</p>
+                    <p>Diễn viên: Dwayne Johnson, Jason Statham, Idris Elba</p>
+                    <p>Ngôn ngữ: Phụ đề tiếng việt</p>
+                </div>
+            </div>
+            <div class="item">
+            	<img src="image film/dieubomechuake_1563419427351.jpg">
+            	<div class="hien">
+                	<h2>điều ba mẹ không kể</h2>
+                    <p><i class="far fa-clock"> Thời lượng: 105 phút</i></p>	
+                    <p><i class="fas fa-ticket-alt"> Thể loại: Âm nhạc - Nhạc kịch</i></p>
+                    <p> <i class="far fa-calendar-alt"> Khởi chiếu: 9/8/2019 </i></p>
+                    <p>Đạo diễn: Park Jun Soo</p>
+                    <p>Diễn viên: BTS (RM, Jin, Suga, J-Hope, Jimin, Jungkook, V)</p>
+                    <p>Phụ đề tiếng việt</p>
+                </div>    
+            </div>
+            <div class="item">
+            	<img src="image film/mv5bmtg5nty3otu2n15bml5banbnxkftztgwotgyota4njm-v1-sy1000-sx800-al-_1543993511772.jpg">
+            	<div class="hien">
+                	<h2>The lion king</h2>
+                    <p><i class="far fa-clock"> Thời lượng: 120 phút</i></p>	
+                    <p><i class="fas fa-ticket-alt"> Thể loại: Phiêu lưu, Hoạt hình</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 19/7/2019</i></p>
+                    <p>Đạo diễn: Jon Favreau</p>
+                    <p>Diễn viên: ames Earl Jones, Chiwetel Ejiofor, Donald Glover</p>
+                    <p>Phụ đề tiếng việt</p>
+                </div>
+            </div>
+            <div class="item">
+            	<img src="image film/photo-1-15641342887411617178645.jpg">
+            	<div class="hien">
+                	<h2>Đầu gấu bắc cực</h2>
+                    <p><i class="far fa-clock"> Thời lượng: 90 phút</i></p>
+                    <p><i class="fas fa-ticket-alt"> Thể loại: Hoạt hình</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i></p>
+                    <p>Đạo diễn: Richard Finn, Tim Maltby</p>
+                    <p>Diễn viên: Lisa Durupt, Jonathan Holmes, Vincent Tong, Lee Tockar, Michael Dobson</p>
+                    <p>Phụ đề tiếng việt, Lồng tiếng Tiếng Việt</p>
+                </div>    
+            </div>
+            <div class="item">
+            	<img src="image film/hobbs.jpg">
+                <div class="hien">
+                	<h2>fast & furious</h2>
+                	<p><i class="far fa-clock"> Thời lượng: 134 phút</i></p>	
+               		<p><i class="fas fa-ticket-alt"> Thể loại: Hành động</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i></p>
+                    <p>Đạo diễn: David Leitch</p>
+                    <p>Diễn viên: Dwayne Johnson, Jason Statham, Idris Elba</p>
+                    <p>Ngôn ngữ: Phụ đề tiếng việt</p>
+                </div> 
+            </div>	
+            <div class="item">
+            	<img src="image film/tranchienanhsang1_1563173684189.jpg">
+            	<div class="hien">
+                	<h2>Trận chiến ánh sáng</h2>
+                	<p><i class="far fa-clock"> Thời lượng: 134 phút</i></p>	
+               		<p><i class="fas fa-ticket-alt"> Thể loại: Hành động</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i></p>
+                    <p>Đạo diễn: David Leitch</p>
+                    <p>Diễn viên: Dwayne Johnson, Jason Statham, Idris Elba</p>
+                    <p>Ngôn ngữ: Phụ đề tiếng việt</p>
+                </div> 
+            </div>
+            <div class="item">
+            	<img src="image film/2019713_131933.jpg">
+                <div class="hien">
+                	<h2>Mắt biếc</h2>
+                	<p><i class="far fa-clock"> Thời lượng: 134 phút</i></p>	
+               		<p><i class="fas fa-ticket-alt"> Thể loại: Hành động</i></p>
+                    <p><i class="far fa-calendar-alt"> Khởi chiếu: 2/8/2019</i></p>
+                    <p>Đạo diễn: David Leitch</p>
+                    <p>Diễn viên: Dwayne Johnson, Jason Statham, Idris Elba</p>
+                    <p>Ngôn ngữ: Phụ đề tiếng việt</p>
+                </div> 
+            </div>
+        </div>
+        <div id="hinhuudai" class="wow swing">
+            <img src="image film/10049281515546014071.png">
+        </div>       
+        <div class="selectionFilm">
+        	<h1> event </h1>
+        </div>
+        <div class="owl-carousel owl-theme wow lightSpeedIn">
+            <div class="item2"><a href="Uudai.html"><img src="image film/event1.jpg"></a></div>            	
+            <div class="item2"><a href="Uudai.html"><img src="image film/event2.jpg"></a></div>
+            <div class="item2"><a href="Uudai.html"><img src="image film/event3.jpg"></a></div>
+            <div class="item2"><a href="Uudai.html"><img src="image film/event4.jpg"></a></div>
+            <div class="item2"><a href="Uudai.html"><img src="image film/event5.jpg"></a></div>
+            <div class="item2"><a href="Uudai.html"><img src="image film/event6.jpg"></a></div>
+            <div class="item2"><a href="Uudai.html"><img src="image film/event7.png"></a></div>
+            <div class="item2"><a href="Uudai.html"><img src="image film/event8.jpg"></a></div>
+        </div>
+    </div>
+    <div style="width:50%; margin:0 auto">
+    	<img src="image film/dolbyatmos1.png">
+    </div>
+
+    <!-- FOOTER --> 
+    <div class="footer">
+        <div id="footer1">
+            <b>Công ty: TNHH OMG cinema<br/>
+            SĐT: 1234567890</b><br/>
+            <p><i>Địa chỉ: 213 Lý Tự Trọng, Phường Bến Thành, Quận 1, TP.HCM <br/>
+            Email: OMGcinema@gmail.com <br/>
+            Hotline hỗ trợ: +84 28 62649911<br/>
+            Số ĐKKD: 0312667335 - Ngày cấp: 20/07/2019 (Đăng ký thay đổi lần 12)<br/>
+            Nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh<br/>
+            Copyright ©2019 OMG Cinemas. All rights reserved.</i></p>
+        </div>
+        <div id="footer3">
+            <img src="image film/footer-star.png" alt="star">
+        </div>
+        <div class="goToTop">
+            <a href="#"><img src="image film/gotoTop.jpg"></a>
+        </div>
+    </div>
+</div>
+<div class="quangcao">
+    <span onClick="hideADS()" style="color:red">X</span>
+   	<img src="image film/quangcao.jpg">
+</div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+	<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Đăng kí</title>
+<link rel="stylesheet" href="css/registration.css" />
+<link href="image film/icon OMG new.png" rel="shortcut icon" />
+<script src="javascript/registration-login.js"></script>
+<link href="css/animate.css" rel="stylesheet"/>
+<script src="javascript/wow.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(".goToTop > a").hide();
+	$(".goToTop > a").click(function() {
+		$("html, body").animate({scrollTop:0}, 500);
+	});
+	$(window).scroll(function() {
+		if( $("html, body").scrollTop() > 200)
+		 {
+			$ (".goToTop > a ").fadeIn("slow");
+		 }
+		 else
+		 {
+			 $(".goToTop > a").fadeOut("slow");
+		 }
+	});		
+});
+new WOW().init();
+</script>
+</head>
+
+<body>
+<!-- HEADER -->
+<div class="header">
+    <div class="head wow rotateIn"> 
+        <a href="OMGcinema.html"><img src="image film/Untitled-1.png"></a>
+    </div>
+    <div>
+            <ul class="menu1">
+                <li><a href="GioiThieu.html" title="Introduce">Giới thiệu</a></li>
+                <li><a href="DichVu.html" title="Service">Dịch vụ</a></li>
+                <li><a href="TuyenDung.html" title="Recruitment">Tuyển dụng</a></li>
+                <li><a href="FAQS.html" title="FAQC">FAQS</a></li>
+                <li><a href="Lienhe.html" title="Cnotact">Liên hệ</a></li>
+                <li><a href="omg+.html" title="OMG+">OMG+</a></li>
+                <li><a href="DangNhap.html" target="_self">Đăng nhập</a></li>
+                <li><a href="DangKi.html" target="_self">Đăng kí</a></li>          
+            </ul>
+            <ul class="menu2">
+                <li><a href="LichChieu.html" class="info2">LỊCH CHIẾU</a></li>
+                <li><a href="phim.html" class="info2">PHIM</a></li>
+                <li><a href="GiaVe.html" class="info2">GIÁ VÉ</a></li>
+                <li><a href="Uudai.html" class="info2">ƯU ĐÃI</a></li>	         	
+            </ul>            
+        </div>   
+</div>
+    <!-- BODY -->
+<div id="body">
+<h1 id="head" class="wow bounceInDown">ĐĂNG KÍ </h1>    
+<!-- bên trái -->
+    	<div id="left">
+            <div id="membercard"> 
+                <img src="image film/member card 5.png" alt="member card" class="wow fadeInUpBig">
+            </div>
+            <div id="securityinfo">
+            	<h1>OMG+</h1>
+            	<h2>Thông tin bảo mật</h2>
+                <p>www.omgcinema.net.vn cam kết sẽ bảo mật những thông tin mang tính riêng tư của khách hàng. Quý khách vui lòng đọc bản “Chính sách bảo mật” dưới đây để hiểu hơn những cam kết mà chúng tôi thực hiện, nhằm tôn trọng và bảo vệ quyền lợi của người truy cập: 1. Thu thập thông tin cá nhân Các thông tin thu thập thông qua websitewww.cinebox.net.vn sẽ giúp chúng tôi: Giải đáp thắc mắc khách hàng. Cung cấp cho bạn thông tin mới nhất trên Website của chúng tôi. Xem xét và nâng cấp nội dung và giao diện của Website. Thực hiện các hoạt động quảng bá liên quan đến các sản phẩm và dịch vụ của MCV Corporatiob. Để truy cập và sử dụng một số dịch vụ tại www.cinebox.net.vn, quý khách có thể sẽ được yêu cầu đăng ký với chúng tôi thông tin cá nhân (Email, Họ tên, Số ĐT liên lạc…)</p>
+            </div>
+        </div>
+<!-- bên phải -->
+	<form>
+        <div class="right">
+            <h1>bạn đã là thành viên</h1>
+            <p>Vui lòng nhập email và mật khẩu để đăng nhập</p>
+            <input placeholder="Email đăng nhập" type="email" name="username" required id="email">
+            <input placeholder="Password" type="password" name="password" required>
+            <input placeholder="Nhập lại Password" type="password" name="password" required>
+            <h1 style="padding-right:30px">thông tin cá nhân</h1>
+            <div>
+                <input id="name" placeholder="Tên" type="text" name="name" required>
+                <input id="lastname" placeholder="Họ" type="text" name="lastname" required>
+           	</div>
+            <div>
+                <select id="day">
+                	<option>Ngày</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31"></option>
+                </select>
+              	<select id="month">
+                	<option>Tháng</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>                 
+                </select>
+                <input id="year" placeholder="Năm" type="text" name="year" required >
+            </div>
+            <div>
+            	<input placeholder="Giới tính" type="text" name="sex" required id="sex">
+                <input placeholder="Số thẻ có ảnh nhận diện-CMND/Passport" type="text" name="id" required id="id">
+                <input placeholder="Số điện thoại" type="text" name="numberphone" required id="sdt">
+                <input placeholder="Địa chỉ" type="text" name="address" required id="address">
+                <input placeholder="Tỉnh/Thành phố" type="text" name="city" required id="city"> 
+                <input placeholder="Quận/Huyện" type="text" name="district" required id="district">
+            </div> 
+            <div><input id="agrees" type="checkbox" name="agree" required>
+            	<span>Tôi đã đọc và đồng ý với điều khoản và điều kiện của chương trình</span>
+            </div>
+            <!--<div id="registration"><a href="#">ĐĂNG KÍ</a></div>-->
+            <div><input id="registration" type="submit" name="registration" value="ĐĂNG KÍ" onClick="dangki()"></div>
+        </div>
+    </form>    
+	</div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div id="footer1">
+            <b>Công ty: TNHH OMG cinema<br/>
+            SĐT: 1234567890</b><br/>
+            <p><i>Địa chỉ: 213 Lý Tự Trọng, Phường Bến Thành, Quận 1, TP.HCM <br/>
+            Email: OMGcinema@gmail.com <br/>
+            Hotline hỗ trợ: +84 28 62649911<br/>
+            Số ĐKKD: 0312667335 - Ngày cấp: 20/07/2019 (Đăng ký thay đổi lần 12)<br/>
+            Nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh<br/>
+            Copyright ©2019 OMG Cinemas. All rights reserved.</i></p>
+        </div>
+        <div id="footer3">
+            <img src="image film/footer-star.png" alt="star">
+        </div>
+	</div>
+     <div class="goToTop">
+            <a href="#"><img src="image film/gotoTop.jpg"></a>
+        </div>
+</div>
+</body>
+</html>
+
+	
